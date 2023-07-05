@@ -39,8 +39,8 @@ $(function(){
         });
 
 
-        $('.cat-merch-content').children('div').filter('.content-box-2').show();
-        $('.cat-merch-content').children('div').not('.content-box-2').hide();
+        $('.cat-merch-content').children('div').filter('.content-box-1').show();
+        $('.cat-merch-content').children('div').not('.content-box-1').hide();
 
         $('#cat-food').click(function(){
             $('.cat-merch-content').children('div').filter('.content-box-1').show();
